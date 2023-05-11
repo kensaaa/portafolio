@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		font-family: "Roboto Mono", monospace;
+	}
+}
+@layer components {
+	hr {
+		@apply mt-2;
+	}
+
+	.btn-primary{
+		@apply text-lg text-white py-3 bg-primary;
+	}
+
+	.card {
+		@apply bg-base p-6 shadow-xl
+	}
+
+	.card-body {
+		@apply p-5;
+	}
+}
